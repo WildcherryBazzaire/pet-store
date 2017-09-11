@@ -1,9 +1,14 @@
+body {
+	background-color:#ADD8E6;
+}
+
 #shop-name {
-	font-size: 25pc;
-	color: light-blue;
+	font-size: 10pc;
+	color: blue;
 	text-align: center;
-	margin: auto auto 30pc auto;
-	background-image: url("https://s3-media3.fl.yelpcdn.com/bphoto/poo1lcOjrY4MiqwQHAKkLg/ls.jpg")
+	margin: auto auto 5pc auto;
+	background-image: url("https://s3-media3.fl.yelpcdn.com/bphoto/poo1lcOjrY4MiqwQHAKkLg/ls.jpg");
+	border-radius: 10%;
 }
 
 #all-animals{
