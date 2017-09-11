@@ -58,3 +58,7 @@
 #human {
 	background-color: rgba(102,255,102,0.15)
 }
+
+audio {
+	display:none;
+}
