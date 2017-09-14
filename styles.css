@@ -4,11 +4,13 @@ body {
 
 #shop-name {
 	font-size: 10pc;
-	color: blue;
 	text-align: center;
 	margin: auto auto 5pc auto;
 	background-image: url("https://s3-media3.fl.yelpcdn.com/bphoto/poo1lcOjrY4MiqwQHAKkLg/ls.jpg");
 	border-radius: 10%;
+	animation-name: color_anim;
+	animation-duration: 7.5s;
+	animation-iteration-count: infinite;
 }
 
 #all-animals{
@@ -66,4 +68,12 @@ body {
 
 audio {
 	display:none;
+}
+
+@keyframes color_anim {
+	0% {color:black;}
+	25% {color:yellow;}
+	50% {color:white;}
+	75% {color:red;}
+	100% {color:black;}
 }
